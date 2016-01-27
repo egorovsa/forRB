@@ -1,12 +1,13 @@
 # forRB
-This is application based on AngularJS 1.x
-Used technologies:
-AngularJS 1.x
-Node.js/NPM
-GULP
-BOWER
-GIT
-SASS
+<b>Result of task: </b> http://testtask.egorov.pw/public/app/<br><br>
+This is application based on AngularJS 1.x <br>
+Used technologies: <br>
+AngularJS 1.x <br>
+Node.js/NPM <br>
+GULP <br>
+BOWER <br>
+GIT <br>
+SASS <br>
 <br>
 This application has 2 folders: <br>
 APP - production version with minimized scripts/styles and cached templates<br>
