@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 26.01.2016, 22:18:41
+    Author     : Sergey
+*/
+
+@import 'common/variables';
+@import 'common/mixins';
+
+.filters{
+    width: 202px;
+    height: 27px;
+    position: absolute;
+    left: 135px;
+    top: 128px;
+    border-radius: 4px;
+    overflow: hidden;
+    border:1px solid $filterBorder;
+    background: $filterBg;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        &>li{
+            float: left;
+            width:25%;
+            &+li{
+                border-left: 1px solid $filterBorder;
+                margin-left: -1px;
+            }
+            &:hover{
+                background: #ececec;
+            }
+            a{
+                display: block;
+                width: 100%;
+                height: 28px;
+                position:relative;
+                opacity: 0.5;
+
+                &.active{
+                    opacity: 1;
+                }
+
+                &::before{
+                    content: "";
+                    width: 6px;
+                    height: 6px;
+                    background: #888;
+                    position: absolute;
+                    top: 50%;
+                    left: 5px;
+                    margin-top: -3px;
+                    border-radius: 100%;
+                }
+
+                background: url('../i/icons-sb5b060cf3b.png');
+
+                &.first{
+                    background-position: 15px -315px;
+
+                    &.active{
+                        &::before{
+                            background: green;
+                        }
+                    }
+
+                }
+                &.second{
+                    background-position: 15px -344px;
+
+                    &.active{
+                        &::before{
+                            background: blue;
+                        }
+                    }
+                }
+                &.third{
+                    background-position: 15px -286px;
+                    &.active{
+                        &::before{
+                            background: yellow;
+                        }
+                    }
+                }
+                &.fourth{
+                    background-position: 15px -371px;
+                    &.active{
+                        &::before{
+                            background: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

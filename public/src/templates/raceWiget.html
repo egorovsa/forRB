@@ -1,0 +1,20 @@
+<div class="raceWiget" ng-repeat="race in races|types:filterResults |convertCurrencyes:currencyes| orderBy:'-purse.ourAmount'|limitTo:'1'">
+    <header>
+        <i ><img ng-src="i/flags/{{race.event.country.toLowerCase()}}.png" /></i>
+        <a ng-href="{{buttonLink}}{{race.id_race}}" class="headName">{{race.event.title}}</a>
+        <time>6min</time>
+        <div class="info">
+            <a ng-href="{{buttonLink}}{{race.id_race}}">{{race.num_runners}} runners</a>
+            <a ng-href="{{buttonLink}}{{race.id_race}}"> {{race.distance}} m</a>
+            <a ng-href="{{buttonLink}}{{race.id_race}}">{{race.purse.amount}} {{race.purse.currency}}</a>
+            <i><img src="i/flags/ai.png" /></i>
+        </div>
+    </header>
+    <ul class="items">
+        <li ng-repeat="runner in race.runners">
+            <i ng-if="runner.silk"><img ng-src="i/silks/{{runner.silk}}" /></i>
+            <a ng-href="{{buttonLink}}{{race.id_race}}" class="name">{{runner.name}}</a>
+            <a ng-href="{{buttonLink}}{{race.id_race}}" class="coeff">{{runner.odds}}</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,147 @@
+{
+  "status": "success",
+  "data": {
+    "races": [
+      {
+        "id_race": 1647215,
+        "event": {
+          "title": "Redcliffe",
+          "country": "IE"
+        },
+        "race_type": "T",
+        "post_time": 1439970900,
+        "num_runners": 9,
+        "distance": 1780,
+        "purse": {
+          "amount": 250,
+          "currency": "GBP"
+        },
+        "runners": [
+          {
+            "id_runner": 15717421,
+            "name": "Triumphant Knight",
+            "odds": 4.7,
+            "silk": ""
+          },
+          {
+            "id_runner": 15717423,
+            "name": "My Aliyana",
+            "odds": 3,
+            "silk": ""
+          },
+          {
+            "id_runner": 15717425,
+            "name": "Badjellys Courage",
+            "odds": 4,
+            "silk": ""
+          }
+        ]
+      },
+      {
+        "id_race": 1647142,
+        "event": {
+          "title": "Belmont",
+          "country": "GB"
+        },
+        "race_type": "G",
+        "post_time": 1439972700,
+        "num_runners": 7,
+        "distance": 1650,
+        "purse": {
+          "amount": 20000,
+          "currency": "EUR"
+        },
+        "runners": [
+          {
+            "id_runner": 15716705,
+            "name": "Alvares",
+            "odds": 5,
+            "silk": "1.png"
+          },
+          {
+            "id_runner": 15716710,
+            "name": "Successful Spin",
+            "odds": 6.5,
+            "silk": "2.png"
+          },
+          {
+            "id_runner": 15716712,
+            "name": "Sixth Legion",
+            "odds": 9.5,
+            "silk": "3.png"
+          }
+        ]
+      },
+      {
+        "id_race": 1647393,
+        "event": {
+          "title": "Hall Green",
+          "country": "GB"
+        },
+        "race_type": "G",
+        "post_time": 1439978580,
+        "num_runners": 12,
+        "distance": 480,
+        "purse": {
+          "amount": 300,
+          "currency": "EUR"
+        },
+        "runners": [
+          {
+            "id_runner": 15718776,
+            "name": "Lefanta Vicky",
+            "odds": 1,
+            "silk": ""
+          },
+          {
+            "id_runner": 15718777,
+            "name": "Keeperhill Lark",
+            "odds": 3.5,
+            "silk": ""
+          },
+          {
+            "id_runner": 15718778,
+            "name": "Ballygibba Berry",
+            "odds": 2.3,
+            "silk": ""
+          }
+        ]
+      },
+      {
+        "id_race": 1647320,
+        "event": {
+          "title": "Worcester",
+          "country": "GB"
+        },
+        "race_type": "J",
+        "post_time": 1440000000,
+        "num_runners": 8,
+        "distance": 4627,
+        "purse": {
+          "amount": 3800,
+          "currency": "GBP"
+        },
+        "runners": [
+          {
+            "id_runner": 15718263,
+            "name": "The Purchaser",
+            "odds": 2,
+            "silk": "4.png"
+          },
+          {
+            "id_runner": 15718267,
+            "name": "Kilcascan",
+            "odds": 3.3,
+            "silk": "5.png"
+          },
+          {
+            "id_runner": 15718269,
+            "name": "Local Present",
+            "odds": 3.6,
+            "silk": "6.png"
+          }
+        ]
+      }
+    ]
+  }
+}

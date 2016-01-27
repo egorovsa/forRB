@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestTask For RaceBets!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/custom.min.css" rel="stylesheet" type="text/css">
+        <link href="css/raceWiget.min.css" rel="stylesheet" type="text/css">
+        <link href="css/filter.min.css" rel="stylesheet" type="text/css">
+        <script src="js/vendors/angular.min.js"></script>
+        <script src="js/modules/racewidget/racewidget.min.js"></script>
+        <script src="js/modules/filter/filter.min.js"></script>
+        <script src="js/app.min.js"></script>
+    </head>
+    <body >
+        <div class="main-wrapper">
+            <div class="bgMain" ng-app="app" >
+                <racefilter ng-model="filterResults"></racefilter>
+                <racewidget filter-results = "filterResults"></racewidget>
+                <racewidget filter-results = "filterResults"></racewidget>
+            </div>
+        </div>
+
+    </body>
+</html>

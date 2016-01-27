@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 26.01.2016, 22:18:41
+    Author     : Sergey
+*/
+
+@import 'common/variables';
+@import 'common/mixins';
+
+
+
+.raceWiget{
+    font-family: Tahoma, Geneva, Kalimati, sans-serif;
+    font-size: 11px;
+    overflow: hidden;
+    width: 233px;
+    position: absolute;
+    top: 276px;
+    right: 124px;
+    border-radius: 3px;
+    border:4px solid $gray;
+    a{
+        color: $textWhite;
+        &:hover{
+            color:#ddd;
+        }
+    }
+
+    header{
+        padding: 0 10px;
+        background: $gray;
+        color:#fff;
+        a{
+            text-decoration: none;
+        }
+        .headName{
+            font-weight: bold;
+            line-height: 35px;
+            display: inline-block
+
+        }
+
+        i{
+            img{
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
+
+        time{
+            float: right;
+            line-height: 35px;
+        }
+        div.info{
+            padding: 14px 0;
+            border-top:1px solid $borders;
+            a{
+                text-decoration: none;
+                padding-right:4px;
+                &+a{
+                    padding-left: 4px;
+                    border-left: 1px solid $borders;
+                }
+            }
+
+            i{
+                float: right;
+            }
+        }
+    }
+
+    ul.items{
+        margin: 0;
+        padding:0;
+
+        a{
+            color:#888;
+            text-decoration: none;
+
+        }
+
+        &>li{
+            &>i{
+                display:inline-block; 
+                float: left;
+                &+a.name{
+                    margin-left: 10px;
+                }
+            }
+
+            border-bottom: 1px solid #ddd;
+            padding:12px 10px;
+            list-style: none;
+            line-height:22px;
+            height:22px;
+            img {
+                width: 22px;
+                height: 22px;
+                vertical-align: middle;
+
+            }
+
+            a.name{
+                font-size: 13px;
+                display: inline-block;
+                line-height: 22px;
+            }
+            a.coeff{
+                float: right;
+                line-height: 19px;
+                width: 34px;
+                height: 19px;
+                display: block;
+                text-align: center;
+                border-radius: 3px;
+                @include gradient(#ffd97d,#f5b10d);
+                color:$black;
+                font-weight: normal;
+                border: 1px solid #f2c71c;
+                &:hover{
+                    @include gradient(#fcaa00,#f5b10d);
+
+                }
+            }
+        }
+    }
+}
+
+
