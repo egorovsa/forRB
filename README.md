@@ -17,7 +17,7 @@ SRC - developer version with all source codes<br>
  all the process is automated according to GULPFILE.JS<br>
  
  <br><br>
- <b>For simple view to your server, you should copy app folder contents and past it to your webserver document_root
+ <b>For simple view to your server, you should copy app folder contents and past it to your webserver document_root</b>
  <br><br>
 
  to run this project (building APP from SRC): <br>
